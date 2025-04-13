@@ -151,6 +151,12 @@ build-hybrid/*.core
 build-purecap/*.core
 build-benchmark/*.core
 *.core
+build-hybrid/*
+build-purecap/*
+build-benchmark/*
+!build-*/**/*.xml
+
+
 # .github/workflows/xml_parser.yml
 
 .git-rewrite/
